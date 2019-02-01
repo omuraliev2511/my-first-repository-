@@ -1,5 +1,11 @@
-# Object file
-*.o
 
-# Ada Library Information
-*.ali
+# Created by https://www.gitignore.io/api/julia
+# Edit at https://www.gitignore.io/?templates=julia
+
+### Julia ###
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+
+# End of https://www.gitignore.io/api/julia
